@@ -1,2 +1,17 @@
 /* max width 767px */
 
+.imgen.quinta img {
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    width: 41%;
+}
+.imgen.cuarta img {
+    width: 145px;
+    top: 167px;
+    left: 68%;
+}
+
+.bloque-video h3{
+    text-align:center!important;
+}

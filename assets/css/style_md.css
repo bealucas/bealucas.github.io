@@ -1,1 +1,180 @@
 /* max width 1200px */
+
+h1{
+    font-size: 26px;
+    line-height: 27px;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+.section-mov{
+    height:50vh!important;
+    
+}
+.bloque-delante {
+    padding:40px;
+    position:relative;
+}
+.imgen.primera img{
+    top: 60px!important;
+    left: 42%!important;
+    z-index: 2!important;
+    width: 150px!important;
+}
+.imgen.segunda img{
+    top: 45px;
+    left: 51%;
+    z-index: 1;
+    width: 283px;
+}
+.movil-none{
+    display:none!important;
+}
+.desktop-none{
+    display: block!important;
+}
+.bloque-delante::after{
+    display:none;
+}
+.bloque-delante p{
+    color:white;
+}
+.imgen img{
+    opacity:0.7;
+}
+.imgen.tercera img{
+    top:40px;
+    width:155px;
+}
+.imgen.cuarta img{
+    width: 145px;
+    top: 167px;
+    left: 80%;
+}
+.imgen.sexta img{
+    top: 20px;
+    left: 57%;
+    z-index: 1;
+    width: 170px;
+}
+.imgen.quinta img {
+    top: 0;
+    left: 100%;
+    z-index: 1;
+    width: 100%;
+}
+.aloe{
+    background-size:cover;
+}
+.contacto-t{
+    padding:2rem;
+    margin-top:2rem;
+}
+.middle{
+    margin-top: 2rem;
+    transform: translateY(0%);
+}
+
+/*------menu-*/
+
+.waves{
+    width:100%;
+}
+.texto-waves-menu{
+    position:relative;
+    left:20%;
+}
+.texto-waves-menu ol li a{
+    line-height:50px;
+}
+
+
+/*-----------web---------*/
+
+.bg-ordenador{
+    height: 60vh;
+    background-position: 41% 0px;
+}
+.orden-invers{
+    flex-flow: row wrap-reverse;
+}
+.text-right{
+    text-align:center;
+}
+.bloque-video{
+    padding:2rem;
+    padding-top:5rem;
+}
+.bloque-video p, .bloque-video h3, .bloque-video h1{
+    text-align:center!important;
+   
+}
+.bg-web .texto {
+    height: 40vh;
+}
+.bg-web{
+    padding-top: 4rem;
+}
+.bloque-video{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+}
+.tamano-ordenador{
+	width:100%!important;
+	height:400px!important;
+}
+.tamano-movil{
+	width:100%!important;
+	height:475px!important;
+}
+
+/*-----graphic----*/
+
+.bloque-sec {
+    height: 30vh;
+    background-color: #333;
+    padding-top: 4rem;
+}
+.sec{
+    height:25vh!important;
+}
+.sec h3{
+    top:25%;
+}
+.flechar {
+    position: relative;
+    height: 20vh;
+}
+.sec .flechar::after{
+    bottom: 25%;
+}
+.bloque-sec p{
+    padding:15px;
+}   
+.bloque-sec-2 {
+    padding:15px;
+    padding-top:20px;
+}   
+button.slick-prev.slick-arrow{
+    left:4%!important;
+}
+.gallery .pics{
+    width:30%;
+}
+.gallery{
+    flex-wrap: wrap;
+}
+
+.arrow_up{
+    z-index:666!important;
+}
+
+button.slick-next:before{
+    left:90%;
+}
+
+
