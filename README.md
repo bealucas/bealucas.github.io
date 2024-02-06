@@ -1,3 +1,1 @@
-# bealucas.github.io
-# include('index.php');
-# contents = file_get_contents('README.md');
+# https://github.com/bealucas/bealucas.github.io/content.git
