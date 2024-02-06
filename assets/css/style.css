@@ -1,0 +1,468 @@
+/*
+
+* Build Date: 2021
+* Last Update: 2021
+* Company: Beatriz Lucas
+* Author: Beatriz Lucas
+* email: 
+* website: http://blubas.com
+* Copyright (C) 2021
+
+*/
+
+
+/* ------------------------------------- */
+/* *. @Import & Reset .................. */
+/* ------------------------------------- */
+
+
+/* custom CSS files */
+@import url(fonts.css);
+
+/*
+* http://meyerweb.com/eric/tools/css/reset/ 
+* v2.0 | 20110126
+* License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+   Reset
+------------------------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior:smooth;
+}
+
+.container-fluid, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding: 0;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse, .row, .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand, h1, .h1, h2, .h2, h3, .h3, h4, .h4, p, ul, li {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Jost', sans-serif;
+	
+}
+
+html {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.4;
+	overflow-y: scroll !important;
+}
+
+body {
+	background: rgb(255, 255, 255);
+	font-size: 15px;
+	color: #485140;
+	font-weight: 300;
+}
+.body_color{
+    background: #f6f6f8;
+}
+
+strong, b {
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: #3c3c3b;
+}
+
+strong {
+	font-weight: 600;
+}
+
+a {
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+	color: #284c63 ;
+}
+
+.img-logo{
+	width:200px;
+	padding:50px;
+	margin-bottom:0px;
+	position:absolute;
+	top:25px;
+	left:0;
+}
+
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.container-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.overfow_hidden {
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Link arrow up   
+-----------------------------------------*/
+.arrow_up {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#top {
+	opacity: 0;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#top.none_arrow {
+	opacity: 1;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#top:hover .arrow_up {
+	top: -5px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.arrow_up:before {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	left: 50%;
+	border-style: solid;
+	border-color: #284c63;
+	border-width: 2px 2px 0 0;
+	position: absolute;
+	transform-origin: 50% 50%;
+}
+
+.arrow_up.up:before {
+	transform: rotate(-45deg);
+	margin: -10px 0 0 -15px;
+}
+
+.arrow_up:after {
+	content: '';
+	display: block;
+	top: 50%;
+	left: 50%;
+	border-style: solid;
+	border-color: #284c63;
+	position: absolute;
+	transform-origin: 50% 50%;
+}
+
+.arrow_up.up:after {
+	width: 0;
+	height: 40px;
+	border-width: 0 2px 0 0;
+	transform: translate(-1px, -14px);
+}
+
+#top {
+	position: fixed;
+	bottom: 80px;
+	right: 50px;
+	background: #7389972f;
+	width: 80px;
+	height: 80px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#top:hover {
+	background: #4b82a559;
+}
+
+
+/* ------------------------------------- */
+/* 2. GENERIC STYLES ................... */
+/* ------------------------------------- */
+
+
+h1 {
+	color: white;
+	font-size: 40px;
+	line-height: 64px;
+	font-family: 'Jost', sans-serif;
+	letter-spacing: 5px;
+    
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight:300;
+	width: 100%;
+	padding: 0 0 20px 0;
+}
+h2 {
+	color: #5a5741;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Jost', sans-serif;
+	letter-spacing: 4px;
+    
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight:300;
+	width: 100%;
+	padding: 0 0 20px 0;
+}
+
+
+h3 {
+	color: #5a5741;
+	font-size: 20px;
+	margin-bottom: 15px;
+	line-height: 35px;
+	font-family: 'Jost', sans-serif;
+	position: relative;
+    letter-spacing: 2px;
+	font-weight: 300;
+	text-align: center!important;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+}
+h3.decorado:before{
+	content: "";
+	background-image: url(../img_design/head/punto.svg);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -20px;
+    top: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+    font-weight: 900;
+}
+h3.decorado:after{
+	content: "";
+	background-image: url(../img_design/head/punto.svg);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    right: -20px;
+    top: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+    font-weight: 900;
+}
+h2.decorado:before{
+	content: "";
+	background-image: url(../img_design/head/punto.svg);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -20px;
+    top: 65px;
+    font-size: 1.2em;
+    opacity: 0.8;
+    font-weight: 900;
+}
+h2.decorado:after{
+	content: "";
+	background-image: url(../img_design/head/punto.svg);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    right: -20px;
+    top: 65px;
+    font-size: 1.2em;
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+
+p {
+	font-family: 'Jost', sans-serif;
+	font-size: 17px;
+	margin-bottom: 0;
+	line-height: 28px;
+	font-weight: 300;
+	color: #333;
+	text-align: center;
+	letter-spacing: 1px;
+}
+sup{
+	font-size:10px;
+	top: -8px;
+}
+p.dos_columnas{
+	column-count: 2;
+	column-gap: 35px;
+}
+.Site-content {
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+
+a.boton, button{
+	padding: 15px 30px;
+	min-width: 150px;
+	text-align: center;
+	color: white !important;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 15px 0 0;
+	display: inline-block;
+	letter-spacing: 1px;
+	border: none;
+}
+a.boton:hover, button:hover{
+	background: #1b1e1f;
+}
+
+.bg-azul{
+	background-color:#284c63;
+	width:100%;
+}
+.bg-negro{
+	background:linear-gradient(to right, #000, #000,rgb(32, 32, 32), #3d3d3d);
+	width:100%;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+
+@font-face {
+    font-family: 'jost';
+    src: url('../../font/jost/jostthin.ttf') format('ttf'),
+         
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'jost';
+    src: url('../../font/jost/jostextralight') format('ttf'),
+         
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'jost';
+    src: url('../../font/jost/jostlight.ttf') format('ttf'),
+    
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'jost';
+    src: url('../../font/jost/jostregular.ttf') format('ttf'),
+  
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'jost';
+    src: url('../../font/jost/jostmedium.ttf') format('ttf'),
+  
+    font-weight: 500;
+    font-style: normal;
+}
