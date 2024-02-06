@@ -1,6 +1,10 @@
 <?php include ('head.php');?>
 <body>
+<<<<<<< HEAD
 <!-- . -->
+=======
+
+>>>>>>> dev
 <?php include ('header.php');?>
 <div id="fullpage">
 	
