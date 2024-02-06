@@ -1,1 +1,1 @@
-ÿþ
+# bealucas.github.io
